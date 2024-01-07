@@ -73,3 +73,48 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
 }
 
+#inner_container_party{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    position: relative;
+}
+#container_party{
+    background-image: url(./src/Vectorrr.png);
+    color: #fff;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+
+#positining_container{
+    position: absolute;
+    top: 126px;
+    left: 126px;
+}
+
+#container_party h2{
+    font-size: 64px;
+    width: 642px;
+}
+
+#container_party p{
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    width: 697px;
+    font-weight: 400;
+}
+#positining_container button{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+}
