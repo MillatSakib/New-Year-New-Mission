@@ -7,6 +7,7 @@
   width: 1320px;
   height: 600px;
   border-radius: 16px;
+  margin: auto;
 }
 
 #container_new_year h1 {
@@ -35,3 +36,40 @@
 background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   z-index: 100;
 }
+#container_sale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px;
+    text-transform: uppercase;
+ 
+}
+#container_sale *{
+       font-family: 'Inter', sans-serif;
+}
+#discount{
+    color:#F00;
+    font-weight: 700;
+    font-size: 88px;
+    
+}
+#holiday_deals{
+    font-weight: 500;
+    font-size: 24px;
+    color: #F00;
+    margin-top: 48px;
+
+}
+#new_year_logo{
+    width: 802px;
+    height: 500px;
+    margin-top: 48px;
+}
+
+#all_catagories{
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 16px;
+
+}
+
