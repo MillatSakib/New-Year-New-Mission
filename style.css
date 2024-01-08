@@ -4,6 +4,10 @@
   font-family: "Merriweather", serif;
 }
 
+main {
+  margin-top: 20px;
+}
+
 #container_new_year {
   background-image: url(src/Banner_Image.png);
   width: 1320px;
@@ -35,234 +39,232 @@
   align-items: center;
   flex-direction: column;
   border-radius: 16px;
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   z-index: 100;
 }
-#container_sale{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 120px;
-    text-transform: uppercase;
- 
+#container_sale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px;
+  text-transform: uppercase;
 }
-#container_sale *{
-       font-family: 'Inter', sans-serif;
+#container_sale * {
+  font-family: "Inter", sans-serif;
 }
-#discount{
-    color:#F00;
-    font-weight: 700;
-    font-size: 88px;
-    
+#discount {
+  color: #f00;
+  font-weight: 700;
+  font-size: 88px;
 }
-#holiday_deals{
-    font-weight: 500;
-    font-size: 24px;
-    color: #F00;
-    margin-top: 48px;
-
+#holiday_deals {
+  font-weight: 500;
+  font-size: 24px;
+  color: #f00;
+  margin-top: 48px;
 }
-#new_year_logo{
-    width: 802px;
-    height: 500px;
-    margin-top: 48px;
+#new_year_logo {
+  width: 802px;
+  height: 500px;
+  margin-top: 48px;
 }
 
-#all_catagories{
-    font-weight: 700;
-    font-size: 48px;
-    margin-top: 16px;
-
+#all_catagories {
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 16px;
 }
 
-#inner_container_party{
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    border-radius: 16px;
-    margin: auto;
-    width: 1320px;
-    height: 600px;
-    position: relative;
+#inner_container_party {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  border-radius: 16px;
+  margin: auto;
+  width: 1320px;
+  height: 600px;
+  position: relative;
 }
-#container_party{
-    background-image: url(./src/Vectorrr.png);
-    color: #fff;
-    background-repeat: no-repeat;
-    margin: auto;
-    width: 1320px;
-    height: 600px;
-    border-radius: 16px;
-}
-
-#positining_container{
-    position: absolute;
-    top: 126px;
-    left: 126px;
+#container_party {
+  background-image: url(./src/Vectorrr.png);
+  color: #fff;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
 }
 
-#container_party h2{
-    font-size: 64px;
-    width: 642px;
+#positining_container {
+  position: absolute;
+  top: 126px;
+  left: 126px;
 }
 
-#container_party p{
-    font-family: "Merriweather", serif;
-    font-size: 18px;
-    width: 697px;
-    font-weight: 400;
-}
-#positining_container button{
-    background-color: transparent;
-    color: #fff;
-    border: none;
-    outline: none;
-    font-size: 20px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+#container_party h2 {
+  font-size: 64px;
+  width: 642px;
 }
 
-#dating{
-    margin: auto;
-    border-radius: 16px;
-    margin-top: 120px;
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    width: 1320px;
-    height: 482px;
+#container_party p {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  width: 697px;
+  font-weight: 400;
+}
+#positining_container button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.color_red{
-    color: #F00;
-   font-family: 'Inter', sans-serif;
+#dating {
+  margin: auto;
+  border-radius: 16px;
+  margin-top: 120px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
 }
 
-.formating{
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 56px;
-    margin: 0;
+.color_red {
+  color: #f00;
+  font-family: "Inter", sans-serif;
 }
 
-#dating button{
-    display: block;
-    margin: auto;
-    margin-top: 64px;
-    background-color: #F00;
-    color: #fff;
-    border: none;
-    outline: none;
-    padding: 16px 32px;
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
+.formating {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  margin: 0;
 }
 
-#parent_about_happy_new_year{
-    width: 1320px;
-    margin: auto;
+#dating button {
+  display: block;
+  margin: auto;
+  margin-top: 64px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 16px 32px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-#about_happy_new_year{
-    display: flex;
-    gap: 70px;
-    width: 1320px;
+#parent_about_happy_new_year {
+  width: 1320px;
+  margin: auto;
 }
 
-#about_happy_new_year *{
-    font-family: 'Inter', sans-serif;
+#about_happy_new_year {
+  display: flex;
+  gap: 70px;
+  width: 1320px;
 }
 
-#about_happy_new_year #best_offer h3{
-    color: #F00;
-    font-size: 24px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
+#about_happy_new_year * {
+  font-family: "Inter", sans-serif;
 }
 
-#about_happy_new_year #best_offer h2{
-    font-family: Merriweather;
-    font-size: 48px;
-    font-weight: 900px;
-    text-transform: capitalize;
-    margin: 0;
-    padding: 0;
+#about_happy_new_year #best_offer h3 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
-#about_happy_new_year #best_offer p{
-    font-size: 20px;
-    font-weight: 400;
-    width: 393px;
-    
+#about_happy_new_year #best_offer h2 {
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900px;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
 }
 
-#about_happy_new_year #ellipse{
-    
-    margin-top: -70px;
+#about_happy_new_year #best_offer p {
+  font-size: 20px;
+  font-weight: 400;
+  width: 393px;
 }
 
-#about_happy_new_year #ellipse img{
-    border: 15px solid #f00;
-    border-radius: 50%;
-}
-#about_happy_new_year #ellipse img{
-    padding:49px;
+#about_happy_new_year #ellipse {
+  margin-top: -70px;
 }
 
-#parent_about_happy_new_year #about_happy_new_year #new_year h2{
- color: #f00;
- font-size: 48px;
- font-weight: 700;
- margin: 0;
- padding: 0;
+#about_happy_new_year #ellipse img {
+  border: 15px solid #f00;
+  border-radius: 50%;
+}
+#about_happy_new_year #ellipse img {
+  padding: 49px;
 }
 
-#parent_about_happy_new_year #about_happy_new_year #new_year p{
-    font-size: 20px;
-    width: 276px;
-    margin-bottom: 50px;
+#parent_about_happy_new_year #about_happy_new_year #new_year h2 {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
 
-#best_gift{
-        width: 1320px;
-        margin: auto;
+#parent_about_happy_new_year #about_happy_new_year #new_year p {
+  font-size: 20px;
+  width: 276px;
+  margin-bottom: 50px;
 }
 
-#best_gift h2{
-    color: #f00;
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    text-transform: uppercase;
+#best_gift {
+  width: 1320px;
+  margin: auto;
 }
 
-#best_gift h3{
-    colro: #070211;
-    font-family: "Merriweather", serif;
-    font-size: 48px;
-    font-weight: 900;
-    text-transform: capitalize;
-    margin: 20px 0px;
+#best_gift h2 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
-#best_gift #gift_desciption{
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    width: 896px;
-    margin-bottom: 48px;
+#best_gift h3 {
+  colro: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 20px 0px;
+}
+
+#best_gift #gift_desciption {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  width: 896px;
+  margin-bottom: 48px;
 }
 
 #best_gift .product img {
   display: block;
   width: 100%;
   margin: 0 auto;
-  transition: transform 0.3s; 
+  transition: transform 0.3s;
 }
 
 .img-container {
-     border-radius: 16px;
+  border-radius: 16px;
   position: relative;
   overflow: hidden;
 }
@@ -277,20 +279,19 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: opacity 0.3s, transform 0.3s; 
+  transition: opacity 0.3s, transform 0.3s;
   top: 0;
   left: 0;
-  transform: translateY(-100%); 
+  transform: translateY(-100%);
 }
 
 .img-container:hover img {
   transform: scale(1.5);
-   
 }
 
 .img-container:hover .child_div {
   opacity: 1;
-  transform: translateY(0); 
+  transform: translateY(0);
 }
 
 .parent_div {
@@ -307,73 +308,135 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   border-radius: 7px;
 }
 
-#best_gift .product{
-    display: flex;
-    gap: 24px;
-    margin: auto;
+#best_gift .product {
+  display: flex;
+  gap: 24px;
+  margin: auto;
 }
 
-#newsletter{
-    width: 1320px;
-    height: 616px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 16px;
-    background: rgba(255, 0, 0, 0.08);
-    margin:120px auto 120px auto;
-    align-items: center;
-    justify-content: center;
+#newsletter {
+  width: 1320px;
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.08);
+  margin: 120px auto 120px auto;
+  align-items: center;
+  justify-content: center;
 }
 
-#newsletter img{
-    width: 150px;
-    height: 150px;
-    
+#newsletter img {
+  width: 150px;
+  height: 150px;
 }
 
-#newsletter h2{
-    font-family: "Merriweather", serif;
-    font-size: 48px;
-    font-weight: 900;
-    margin-top: 40px;
+#newsletter h2 {
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 40px;
 }
 
-#newsletter p{
-    width: 896px;
-    color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400px;
-    text-align: center;
-    margin-bottom: 48px;
+#newsletter p {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400px;
+  text-align: center;
+  margin-bottom: 48px;
 }
 
-#newsletter div input::placeholder{
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: rgba(7, 2, 17, 0.30);
-    
+#newsletter div input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.3);
 }
-#newsletter div input[type="email"]{
-    padding: 25px 267px 25px 30px;
-    outline: none;
-    border: none;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    margin: 0;
+#newsletter div input[type="email"] {
+  padding: 25px 267px 25px 30px;
+  outline: none;
+  border: none;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin: 0;
 }
-#newsletter div input[type="submit"]{
-    margin: 0;
-    border: none;
-    outline: none;
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    color: white;
-    background-color: #FF0000;
-    padding: 15px 56px 20px 56px;
-    width: 210px;
-    height: 67px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+#newsletter div input[type="submit"] {
+  margin: 0;
+  border: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #ff0000;
+  padding: 15px 56px 20px 56px;
+  width: 210px;
+  height: 67px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+footer {
+  width: 100%;
+  height: 609px;
+  background-color: #070211;
+  color: #fff;
+}
+
+#footer_first_part {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer_first_part .contact1 {
+  margin: 120px 140px 50px 140px;
+}
+
+.footer_template {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+hr {
+  color: #070211;
+  background-color: #070211;
+  border: 1px solid black;
+}
+
+footer div .logo {
+  margin-right: 24px;
+}
+
+footer #logo {
+  margin-top: 48px;
+  text-align: center;
+}
+
+#footer_last_part {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 98px;
+}
+#footer_last_part .right {
+  margin-left: 140px;
+}
+#footer_last_part .subscribe {
+  margin-right: 140px;
+}
+
+
+#sale_disc h3{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin:auto;
+    width: 100%;
 }
