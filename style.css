@@ -406,9 +406,10 @@ footer {
 }
 
 hr {
-  color: #070211;
-  background-color: #070211;
-  border: 1px solid black;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+;
 }
 
 footer div .logo {
@@ -418,12 +419,13 @@ footer div .logo {
 footer #logo {
   margin-top: 48px;
   text-align: center;
+  margin-bottom: 48px;
 }
 
 #footer_last_part {
   display: flex;
   justify-content: space-between;
-  margin-top: 98px;
+  margin-top: 50px;
 }
 #footer_last_part .right {
   margin-left: 140px;
